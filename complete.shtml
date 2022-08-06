@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<title>チケット通販.com</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="complete.css" />
+
+<script type="text/javascript">
+!--
+function alert1(){
+	window.alert('おめでとうございます！\nチケット購入が無事に完了しました。');
+}
+
+function disp(){
+	window.alert('1週間以内にお振込みがない場合は、ご自宅へご連絡をさせて頂く事となります。\nトラブルを回避する為、今すぐにお支払い下さい。');
+}
+--
+</script>
+
+</head>
+
+<body onLoad="alert1()">
+
+<div class="frame">
+<img src="complete.svg" alt="チケット通販.com"/>
+
+<p>チケット通販.comをご利用頂き、まことにありがとうございます。お客様の個人情報を取得させて頂き、以下の通りチケット購入が正式に完了いたしました。<b>チケット料45,000円を、下記口座までお振込み下さいます様、お願い致します</b>。尚、1週間経ってもお振込みが行われない場合、下記プロバイダへ問い合わせ、お客様の<b>ご自宅へご請求</b>または、法的処置を取らさせて頂く場合もございます。予めご了承下さいませ。</p>
+
+<p>※チケットは、1週間以内発送します。</p>
+
+<table class="fraud-table">
+<caption>あなたのアクセス情報</caption>
+<tr>
+	<td class="item-name">ご登録日</span></td>
+	<td>2020年 10月14日</td>
+</tr>
+<tr>
+	<td class="item-name">電話番号</td>
+	<td>090-xxxx-xxxx</td>
+</tr>
+<tr>
+	<td class="item-name">メール</td>
+	<td>itazura111@icloud.com</td>
+</tr>
+</table>
+
+<table class="fraud-table">
+<caption>チケット情報</caption>
+<tr>
+	<td class="item-name">ご購入日</td>
+	<td>2020年 11月28日</td>
+</tr>
+<tr>
+	<td class="item-name">チケット番号</td>
+	<td>4538 9327</td>
+</tr>
+<tr>
+	<td class="item-name">お問い合わせ番号</td>
+	<td>2317543685</td>
+</tr>
+<tr>
+	<td class="item-name">金額</td>
+	<td>45,000円</td>
+</tr>
+</table>
+
+<table class="fraud-table">
+<caption>お振込先</caption>
+<tr>
+	<td class="item-name">銀行名</td>
+	<td>ゆうちょ銀行</td>
+</tr>
+<tr>
+	<td class="item-name">支店名</td>
+	<td>南屋支店</td>
+</tr>
+<tr>
+	<td class="item-name">口座名義</td>
+	<td>チケット　com</td>
+</tr>
+<tr>
+	<td class="item-name">口座番号</td>
+	<td>普）453 0022</td>
+</tr>
+<tr>
+	<td class="item-name">振込金額</td>
+	<td>45,000円</td>
+</tr>
+</table>
+
+<p>※お支払い手数料に関しましては、お客様のご負担となります</p>
+
+<p align="center"><input type="button" value="あとで支払う" onClick="disp()"> <input type="button" value="支払いページへ" onClick="location.href='pay.html'">
+</p>
+
+</div>
+</body>
+</html>
