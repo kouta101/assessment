@@ -1,0 +1,22 @@
+body{
+    background-color: #FDFFFF;
+    color: #000000;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+button{
+    padding: 5px 20px;
+    background-color: #000000;
+    color: #f5dd00;
+    border-color: #000000;
+    border-style: none;
+}
+input{
+    height: 20px;
+}
+html{
+	overflow-y:scroll;
+	height:100%;
+	margin-bottom:1px;
+}
